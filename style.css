@@ -1,3 +1,9 @@
+* {
+box-sizing: border-box;
+}
+
+
+
 body, ul {
     padding: 0;
     margin:0;
@@ -17,7 +23,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 15px;
+    margin: 15px 0;
     background: greenyellow;
 }
 
@@ -48,19 +54,41 @@ header ul a {
 }
 
 #page .product {
-    max-width: 220px;
+    max-width: 235px;
     text-align: center;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 15px 15px;
+    padding: 15px;
 }
+
 
 #page .product img {
     max-width: 100%;
 }
 
 #page {
-    width: 75%;
-    justify-content: space-between;
+    width: 75%;15px
+    justify-con15pxent: space-between;
 }
 
 #sidebar {
     width: 25% ;
+}
+
+#page .product button {
+background: red;
+color: yellow;
+padding: 10px 15px;
+font-size: 22px;
+margin-top: 15px;
+border: none;
+cursor: pointer;
+transition: 0.5s;
+}
+
+#page .product button:hover {
+    background: #ff9101;
 }
