@@ -99,6 +99,17 @@ transition: 0.5s;
     background: #ff9101;
 }
 
+footer {
+    background: aqua;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 26;
+    width: 100%;
+}
+
 #sidebar ul li a {
     display: block;
     padding: 10px 15px;
